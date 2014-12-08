@@ -32,7 +32,7 @@ public class Fix34 {
     // Converts an array to an ArrayList.
     public ArrayList<Integer> arrayToArrayList(int[] list) {
         ArrayList<Integer> newList = new ArrayList<Integer>();
-        for (int x : list){
+        for (int x : list) {
             newList.add(x);
         }
         return newList;
@@ -41,13 +41,13 @@ public class Fix34 {
     // Converts an ArrayList to an array.
     public int[] arrayListToArray(ArrayList<Integer> list) {
         int[] newList = new int[list.size()];
-        for (int i = 0; i < list.size(); i++){
+        for (int i = 0; i < list.size(); i++) {
             newList[i] = list.get(i);
         }
         return newList;
     }
 
-    public static void main (String[] args){
+    public static void main(String[] args) {
         Fix34 m = new Fix34();
         m.fix34(new int[]{1, 3, 1, 4});
     }
