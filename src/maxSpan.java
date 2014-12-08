@@ -1,4 +1,4 @@
-class MaxSpan {
+public class MaxSpan {
     public int maxSpan(int[] nums) {
         int maxSpan = 0;
         int span = 0;
